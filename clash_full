@@ -75,6 +75,25 @@ custom_proxy_group=🇨🇳 台湾节点`url-test`(台|新北|彰化|TW|Taiwan)`
 custom_proxy_group=🇸🇬 狮城节点`url-test`(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇰🇷 韩国节点`url-test`(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=🇨🇦 加拿大节点`url-test`(加拿大)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇷🇺 俄罗斯节点`url-test`(俄罗斯)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇦🇺 澳大利亚节点`url-test`(澳大利亚|澳洲)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇳🇱 荷兰节点`url-test`(荷兰)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇩🇪 德国节点`url-test`(德国)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇧🇷 巴西节点`url-test`(巴西)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇮🇳 印度节点`url-test`(印度)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇫🇷 法国节点`url-test`(法国)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇻🇳 越南节点`url-test`(越南)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇪🇬 埃及节点`url-test`(埃及)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇹🇭 泰国节点`url-test`(泰国)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇹🇷 土耳其节点`url-test`(土耳其)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇦🇷 阿根廷节点`url-test`(阿根廷)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇨🇦 加拿大节点`url-test`(加拿大)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇮🇱 以色列节点`url-test`(以色列)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇮🇹 意大利节点`url-test`(意大利)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇲🇾 马来西亚节点`url-test`(马来西亚)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇵🇰 巴基斯坦节点`url-test`(巴基斯坦)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇨🇴 哥伦比亚节点`url-test`(哥伦比亚)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇳🇬 尼日利亚节点`url-test`(尼日利亚)`http://www.gstatic.com/generate_204`300,,50
 ;设置分组标志位
 
 enable_rule_generator=true
