@@ -1,12 +1,11 @@
-DOMAIN-KEYWORD,aicoin,🇭🇰 香港节点
-DOMAIN-KEYWORD,bybit,🇯🇵 日本节点
-DOMAIN-KEYWORD,binance,🇭🇰 香港节点
-DOMAIN-KEYWORD,okx,🇭🇰 香港节点
-DOMAIN-KEYWORD,bet365,🇭🇰 香港节点
-DOMAIN-SUFFIX,byapis.com,🇯🇵 日本节点
-DOMAIN-SUFFIX,bycbe.com,🇯🇵 日本节点
-DOMAIN-SUFFIX,testflight.apple.com,🇭🇰 香港节点
-DOMAIN-SUFFIX,alfredapp,🇭🇰 香港节点
-DOMAIN-KEYWORD,v2rayssr,🇭🇰 香港节点
-DOMAIN-SUFFIX,appstorrent.ru,🇭🇰 香港节点
+DOMAIN-KEYWORD,aicoin
+DOMAIN-KEYWORD,bybit
+DOMAIN-KEYWORD,binance
+DOMAIN-KEYWORD,okx
+DOMAIN-KEYWORD,bet365
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,testflight.apple.com
+DOMAIN-SUFFIX,alfredapp
+DOMAIN-SUFFIX,appstorrent.ru
 
