@@ -9,15 +9,4 @@ DOMAIN-SUFFIX,testflight.apple.com,🇭🇰 香港节点
 DOMAIN-SUFFIX,alfredapp,🇭🇰 香港节点
 DOMAIN-KEYWORD,v2rayssr,🇭🇰 香港节点
 DOMAIN-SUFFIX,appstorrent.ru,🇭🇰 香港节点
-DOMAIN-SUFFIX,ooklaserver.net,DIRECT
-DOMAIN-SUFFIX,speedtest.net,DIRECT
-DOMAIN-SUFFIX,fast.com,DIRECT
-DOMAIN-SUFFIX,speed.cloudflare.com,DIRECT
-DOMAIN-SUFFIX,mgy.frps.work,DIRECT
-DOMAIN-KEYWORD,btschool,DIRECT
-DOMAIN-SUFFIX,pgcpxh.com,DIRECT
-DOMAIN-KEYWORD,ultramobile,DIRECT
-DOMAIN-SUFFIX,pttime.org,DIRECT
-DOMAIN-SUFFIX,hdhome.org,DIRECT
-DOMAIN-SUFFIX,allsport365.com,DIRECT
-DOMAIN-KEYWORD,365,DIRECT
+
