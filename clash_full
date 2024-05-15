@@ -14,6 +14,7 @@ ruleset=Black,https://raw.githubusercontent.com/nkg1292905/clashcp/main/Black.li
 ruleset=White,https://raw.githubusercontent.com/nkg1292905/clashcp/main/White.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
 ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/direct.list
 ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
 ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
 ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
