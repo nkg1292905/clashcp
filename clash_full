@@ -1,141 +1,116 @@
-[General]
-# > 日志级别
-loglevel = notify
-show-error-page-for-reject = true
-# > Wi-Fi 访问
-allow-wifi-access = true
-# > All Hybrid 网络并发
-all-hybrid = false
-# > IPv6 支持（默认关闭）
-ipv6 = false
-# > 测试超时（秒）
-test-timeout = 2
-# > Internet 测试 URL
-internet-test-url = http://www.baidu.com
-# > 代理测速 URL
-proxy-test-url = http://www.google.com/generate_204
-# > GeoIP数据库
-geoip-maxmind-url = https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb
-# > 排除简单主机名
-exclude-simple-hostnames = true
-# > DNS 服务器
-dns-server = 223.5.5.5, 119.29.29.29
-hijack-dns = 8.8.8.8:53, 8.8.4.4:53
-# > 从 /etc/hosts 读取 DNS 记录
-read-etc-hosts = true
-# > 远程控制器
-http-api-web-dashboard = false
-use-default-policy-if-wifi-not-primary = false
-# > 跳过代理
-skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 17.0.0.0/8, localhost, *.local, *.crashlytics.com, seed-sequoia.siri.apple.com, sequoia.apple.com
-# > Always Real IP Hosts
-always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com*.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net
-http-listen = 0.0.0.0
-socks5-listen = 0.0.0.0
-ipv6-vif = disabled
-allow-hotspot-access = true
+[custom]
+;不要随意改变关键字，否则会导致出错
+;acl4SSR规则
 
-[Proxy Group]
-White = select, DIRECT
-Black = select, 🚀 节点选择, ♻️ 自动选择, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🚀 手动切换, DIRECT
-TikTok = select, 🇺🇲 美国节点
-🌈 Google = select, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🇦🇺 澳大利亚节点, 🇳🇱 荷兰节点, 🇩🇪 德国节点, 🇮🇳 印度节点, 🇧🇷 巴西节点, 🇫🇷 法国节点, 🇻🇳 越南节点, 🇪🇬 埃及节点, 🇹🇭 泰国节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇨🇦 加拿大节点, 🇷🇺 俄罗斯节点, 🇮🇱 以色列节点, 🇮🇹 意大利节点, 🇲🇾 马来西亚节点, 🇵🇰 巴基斯坦节点, 🇨🇴 哥伦比亚节点, 🇳🇬 尼日利亚节点
-🚀 节点选择 = select, ♻️ 自动选择, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🇦🇺 澳大利亚节点, 🇳🇱 荷兰节点, 🇩🇪 德国节点, 🇮🇳 印度节点, 🇧🇷 巴西节点, 🇫🇷 法国节点, 🇻🇳 越南节点, 🇪🇬 埃及节点, 🇹🇭 泰国节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇨🇦 加拿大节点, 🇷🇺 俄罗斯节点, 🇮🇱 以色列节点, 🇮🇹 意大利节点, 🇲🇾 马来西亚节点, 🇵🇰 巴基斯坦节点, 🇨🇴 哥伦比亚节点, 🇳🇬 尼日利亚节点, 🚀 手动切换, DIRECT
-🚀 手动切换 = select, policy-path=https://sub.store/download/IPLC?target=Surge
-♻️ 自动选择 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, url=http://www.gstatic.com/generate_204, interval=300, tolerance=50
-📲 电报消息 = select, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🚀 节点选择, 🚀 手动切换, DIRECT
-💬 OpenAi = select, 🚀 手动切换
-📹 油管视频 = select, 🚀 节点选择, ♻️ 自动选择, 🇸🇬 狮城节点, 🇭🇰 香港节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇰🇷 韩国节点, 🚀 手动切换, DIRECT
-🎥 奈飞视频 = select, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🇦🇺 澳大利亚节点, 🇳🇱 荷兰节点, 🇩🇪 德国节点, 🇮🇳 印度节点, 🇧🇷 巴西节点, 🇫🇷 法国节点, 🇻🇳 越南节点, 🇪🇬 埃及节点, 🇹🇭 泰国节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇨🇦 加拿大节点, 🇷🇺 俄罗斯节点, 🇮🇱 以色列节点, 🇮🇹 意大利节点, 🇲🇾 马来西亚节点, 🇵🇰 巴基斯坦节点, 🇨🇴 哥伦比亚节点, 🇳🇬 尼日利亚节点
-📺 巴哈姆特 = select, 🇨🇳 台湾节点, 🚀 节点选择, 🚀 手动切换, DIRECT
-🌍 国外媒体 = select, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🇦🇺 澳大利亚节点, 🇳🇱 荷兰节点, 🇩🇪 德国节点, 🇮🇳 印度节点, 🇧🇷 巴西节点, 🇫🇷 法国节点, 🇻🇳 越南节点, 🇪🇬 埃及节点, 🇹🇭 泰国节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇨🇦 加拿大节点, 🇷🇺 俄罗斯节点, 🇮🇱 以色列节点, 🇮🇹 意大利节点, 🇲🇾 马来西亚节点, 🇵🇰 巴基斯坦节点, 🇨🇴 哥伦比亚节点, 🇳🇬 尼日利亚节点, DIRECT
-🌏 国内媒体 = select, DIRECT, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🚀 节点选择, 🚀 手动切换
-📢 谷歌FCM = select, DIRECT, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🚀 节点选择, 🚀 手动切换
-Ⓜ️ 微软Bing = select, DIRECT, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🚀 节点选择, 🚀 手动切换
-Ⓜ️ 微软云盘 = select, DIRECT, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🚀 节点选择, 🚀 手动切换
-Ⓜ️ 微软服务 = select, DIRECT, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🚀 节点选择, 🚀 手动切换
-🍎 苹果服务 = select, DIRECT, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🚀 节点选择, 🚀 手动切换
-🎮 游戏平台 = select, DIRECT, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🚀 节点选择, 🚀 手动切换
-🎯 全球直连 = select, DIRECT, 🚀 节点选择, ♻️ 自动选择
-🛑 广告拦截 = select, REJECT, DIRECT
-🆎 AdBlock = select, REJECT, DIRECT
-🛡️ 隐私防护 = select, REJECT, DIRECT
-🍃 应用净化 = select, REJECT, DIRECT
-🐟 漏网之鱼 = select, 🇭🇰 香港节点, 🇸🇬 狮城节点, 🇵🇭 菲律宾节点, 🇨🇳 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇺🇲 美国节点, 🇦🇺 澳大利亚节点, 🇳🇱 荷兰节点, 🇩🇪 德国节点, 🇮🇳 印度节点, 🇧🇷 巴西节点, 🇫🇷 法国节点, 🇻🇳 越南节点, 🇪🇬 埃及节点, 🇹🇭 泰国节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇨🇦 加拿大节点, 🇷🇺 俄罗斯节点, 🇮🇱 以色列节点, 🇮🇹 意大利节点, 🇲🇾 马来西亚节点, 🇵🇰 巴基斯坦节点, 🇨🇴 哥伦比亚节点, 🇳🇬 尼日利亚节点, 🚀 节点选择, 🚀 手动切换, ♻️ 自动选择, DIRECT
+;去广告：支持
+;自动测速：支持
+;微软分流：支持
+;苹果分流：支持
+;增强中国IP段：支持
+;增强国外GFW：支持
 
-# > 外部节点自动匹配
-# > 匹配到关键字，自动收纳为节点组
-🇭🇰 香港节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇭🇰)|(港)|(Hong)|(HK), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
-🇸🇬 狮城节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇸🇬)|(新)|(Singapore)|(SG), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇵🇭 菲律宾节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇵🇭)|(菲律宾), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇨🇳 台湾节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇨🇳)|(台)|(Tai)|(TW), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
-🇯🇵 日本节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇯🇵)|(日本)|(Japan)|(JP), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150, update-interval=0, no-alert=0, hidden=0, include-all-proxies=0
-🇺🇲 美国节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇺🇸)|(美)|(States)|(US), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇰🇷 韩国节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇰🇷)|(韩)|(Korea)|(KR), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇦🇺 澳大利亚节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇦🇺)|(澳大利亚), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇳🇱 荷兰节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇳🇱)|(荷兰), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇩🇪 德国节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇩🇪)|(德国), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇮🇳 印度节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇮🇳)|(印度), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇧🇷 巴西节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇧🇷)|(巴西), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇫🇷 法国节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇫🇷)|(法国), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇻🇳 越南节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇻🇳)|(越南), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇪🇬 埃及节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇪🇬)|(埃及), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇹🇭 泰国节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇹🇭)|(泰国), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇹🇷 土耳其节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇹🇷)|(土耳其), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇦🇷 阿根廷节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇦🇷)|(阿根廷), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇨🇦 加拿大节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇨🇦)|(加拿大), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇷🇺 俄罗斯节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇷🇺)|(俄罗斯), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇮🇱 以色列节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇮🇱)|(以色列), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇮🇹 意大利节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇮🇹)|(意大利), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇲🇾 马来西亚节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇲🇾)|(马来西亚), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇵🇰 巴基斯坦节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇵🇰)|(巴基斯坦), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇨🇴 哥伦比亚节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇨🇴)|(哥伦比亚), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
-🇳🇬 尼日利亚节点 = smart, policy-path=https://sub.store/download/IPLC?target=Surge, policy-regex-filter=(🇳🇬)|(尼日利亚), url=http://www.gstatic.com/generate_204, interval=300, tolerance=150
+;设置规则标志位
+ruleset=Black,https://raw.githubusercontent.com/nkg1292905/clashcp/main/Black.list
+ruleset=White,https://raw.githubusercontent.com/nkg1292905/clashcp/main/White.list
+ruleset=TikTok,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
+ruleset=🌈 Google,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/direct.list
+ruleset=🛑 广告拦截,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list
+ruleset=🆎 AdBlock,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
+ruleset=🆎 AdBlock,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ad.list
+ruleset=🛡️ 隐私防护,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list
+ruleset=🍃 应用净化,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+ruleset=📢 谷歌FCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+ruleset=Ⓜ️ 微软Bing,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list
+ruleset=Ⓜ️ 微软云盘,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
+ruleset=Ⓜ️ 微软服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+ruleset=🍎 苹果服务,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+ruleset=📲 电报消息,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+ruleset=💬 OpenAi,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+ruleset=🎮 游戏平台,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list
+ruleset=📹 油管视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+ruleset=🎥 奈飞视频,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+ruleset=📺 巴哈姆特,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
+ruleset=🌏 国内媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+ruleset=🌍 国外媒体,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+ruleset=🚀 节点选择,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+;ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=🎯 全球直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
+;ruleset=🎯 全球直连,[]GEOIP,LAN
+ruleset=🎯 全球直连,[]GEOIP,CN
+ruleset=🐟 漏网之鱼,[]FINAL
+;设置规则标志位
 
-[Rule]
-RULE-SET,https://raw.githubusercontent.com/nkg1292905/clashcp/main/Black.list,Black,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/nkg1292905/clashcp/main/White.list,White,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list,TikTok,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list,🌈 Google,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list,🎯 全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list,🎯 全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/direct.list,🎯 全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list,🛑 广告拦截,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list,🛑 广告拦截,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list,🛑 广告拦截,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ad.list,🛑 广告拦截,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list,🛡️ 隐私防护,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list,🍃 应用净化,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list,📢 谷歌FCM,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list,🎯 全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list,🎯 全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list,Ⓜ️ 微软Bing,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list,Ⓜ️ 微软云盘,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list,Ⓜ️ 微软服务,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list,🍎 苹果服务,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list,📲 电报消息,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list,💬 OpenAi,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list,🎮 游戏平台,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Origin.list,🎮 游戏平台,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list,🎮 游戏平台,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list,🎮 游戏平台,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list,🎮 游戏平台,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list,📹 油管视频,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list,🎥 奈飞视频,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list,📺 巴哈姆特,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list,🌏 国内媒体,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list,🌍 国外媒体,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list,🚀 节点选择,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list,🎯 全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list,🎯 全球直连,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list,🎯 全球直连,update-interval=86400
-GEOIP,CN,🎯 全球直连
-FINAL,🐟 漏网之鱼
+;设置分组标志位
+custom_proxy_group=White`select`[]DIRECT
+custom_proxy_group=Black`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=TikTok`select`[]🇺🇲 美国节点
+custom_proxy_group=🌈 Google`select`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点
+custom_proxy_group=🚀 节点选择`select`[]♻️ 自动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🚀 手动切换`select`.*
+custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=📲 电报消息`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=💬 OpenAi`select`.*
+custom_proxy_group=📹 油管视频`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🎥 奈飞视频`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇸🇬 狮城节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=📺 巴哈姆特`select`[]🇨🇳 台湾节点`[]🚀 节点选择`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🌍 国外媒体`select`[]🚀 节点选择`[]♻️ 自动选择`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换`[]DIRECT
+custom_proxy_group=🌏 国内媒体`select`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🚀 手动切换
+custom_proxy_group=📢 谷歌FCM`select`[]DIRECT`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换
+custom_proxy_group=Ⓜ️ 微软Bing`select`[]DIRECT`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换
+custom_proxy_group=Ⓜ️ 微软云盘`select`[]DIRECT`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换
+custom_proxy_group=Ⓜ️ 微软服务`select`[]DIRECT`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换
+custom_proxy_group=🍎 苹果服务`select`[]DIRECT`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换
+custom_proxy_group=🎮 游戏平台`select`[]DIRECT`[]🚀 节点选择`[]🇺🇲 美国节点`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇰🇷 韩国节点`[]🚀 手动切换
+custom_proxy_group=🎯 全球直连`select`[]DIRECT`[]🚀 节点选择`[]♻️ 自动选择
+custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
+custom_proxy_group=🆎 AdBlock`select`[]REJECT`[]DIRECT
+custom_proxy_group=🛡️ 隐私防护`select`[]REJECT`[]DIRECT
+custom_proxy_group=🍃 应用净化`select`[]REJECT`[]DIRECT
+custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]♻️ 自动选择`[]DIRECT`[]🇭🇰 香港节点`[]🇨🇳 台湾节点`[]🇸🇬 狮城节点`[]🇯🇵 日本节点`[]🇺🇲 美国节点`[]🇰🇷 韩国节点`[]🚀 手动切换
+custom_proxy_group=🇭🇰 香港节点`url-test`(港|HK|hk|Hong Kong|HongKong|hongkong)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇸🇬 狮城节点`url-test`(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇵🇭 菲律宾节点`url-test`(菲律宾)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇨🇳 台湾节点`url-test`(台|新北|彰化|TW|Taiwan)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇯🇵 日本节点`url-test`(日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇺🇲 美国节点`url-test`(美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇬🇧 英国节点`url-test`(英国)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇰🇷 韩国节点`url-test`(KR|Korea|KOR|首尔|韩|韓)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇦🇺 澳大利亚点`url-test`(澳大利亚|澳洲)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇳🇱 荷兰节点`url-test`(荷兰)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇩🇪 德国节点`url-test`(德国)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇮🇳 印度节点`url-test`(印度)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇧🇷 巴西节点`url-test`(巴西)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇫🇷 法国节点`url-test`(法国)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇻🇳 越南节点`url-test`(越南)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇪🇬 埃及节点`url-test`(埃及)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇹🇭 泰国节点`url-test`(泰国)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇹🇷 土耳其节点`url-test`(土耳其)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇦🇷 阿根廷节点`url-test`(阿根廷)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇨🇦 加拿大节点`url-test`(加拿大)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇷🇺 俄罗斯节点`url-test`(俄罗斯)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇮🇱 以色列节点`url-test`(以色列)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇮🇹 意大利节点`url-test`(意大利)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇲🇾 马来西亚节点`url-test`(马来西亚)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇵🇰 巴基斯坦节点`url-test`(巴基斯坦)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇨🇴 哥伦比亚节点`url-test`(哥伦比亚)`http://www.gstatic.com/generate_204`300,,50
+custom_proxy_group=🇳🇬 尼日利亚节点`url-test`(尼日利亚)`http://www.gstatic.com/generate_204`300,,50
+;设置分组标志位
 
-[SSID Setting]
-SSID:2803 suspend=true, cellular-fallback=off
-SSID:AX6 suspend=true, cellular-fallback=off
+enable_rule_generator=true
+overwrite_original_rules=true
 
-[MITM]
-ca-passphrase = 4D0D46AE
-ca-p12 = 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
+;clash_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
+
+;luck
