@@ -1,10 +1,11 @@
+IP-CIDR,103.182.97.153/24
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,ooklaserver.net
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,speed.cloudflare.com
-DOMAIN-SUFFIX,mgy.frps.work
+DOMAIN-SUFFIX,frps.work
 DOMAIN-KEYWORD,btschool
 DOMAIN-SUFFIX,pgcpxh.com
 DOMAIN-KEYWORD,ultramobile
