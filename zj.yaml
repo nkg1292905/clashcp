@@ -36,7 +36,6 @@ proxy-groups:
       - 🇳🇬 尼日利亚节点
       - 🇲🇾 马来西亚节点
       - 🇨🇴 哥伦比亚节点
-      - ToToTel
       - 🚀 节点选择
       - 🚀 手动切换
       - ♻️ 自动选择
@@ -45,7 +44,7 @@ proxy-groups:
     include-all: true
     type: select
     proxies:
-      - ToToTel
+      - 🚀 手动切换
   - name: Coin
     include-all: true
     type: select
@@ -77,7 +76,6 @@ proxy-groups:
       - 🇳🇬 尼日利亚节点
       - 🇲🇾 马来西亚节点
       - 🇨🇴 哥伦比亚节点
-      - ToToTel
       - 🚀 节点选择
       - 🚀 手动切换
       - ♻️ 自动选择
@@ -112,7 +110,6 @@ proxy-groups:
       - 🇳🇬 尼日利亚节点
       - 🇲🇾 马来西亚节点
       - 🇨🇴 哥伦比亚节点
-      - ToToTel
       - 🚀 节点选择
       - 🚀 手动切换
       - ♻️ 自动选择
@@ -147,7 +144,6 @@ proxy-groups:
       - 🇳🇬 尼日利亚节点
       - 🇲🇾 马来西亚节点
       - 🇨🇴 哥伦比亚节点
-      - ToToTel
       - 🚀 节点选择
       - 🚀 手动切换
       - ♻️ 自动选择
@@ -182,7 +178,6 @@ proxy-groups:
       - 🇳🇬 尼日利亚节点
       - 🇲🇾 马来西亚节点
       - 🇨🇴 哥伦比亚节点
-      - ToToTel
       - 🚀 节点选择
       - 🚀 手动切换
       - ♻️ 自动选择
@@ -217,7 +212,6 @@ proxy-groups:
       - 🇳🇬 尼日利亚节点
       - 🇲🇾 马来西亚节点
       - 🇨🇴 哥伦比亚节点
-      - ToToTel
       - 🚀 节点选择
       - 🚀 手动切换
       - ♻️ 自动选择
@@ -293,7 +287,6 @@ proxy-groups:
       - 🇳🇬 尼日利亚节点
       - 🇲🇾 马来西亚节点
       - 🇨🇴 哥伦比亚节点
-      - ToToTel
       - 🚀 节点选择
       - 🚀 手动切换
       - ♻️ 自动选择
@@ -332,7 +325,6 @@ proxy-groups:
       - 🇳🇬 尼日利亚节点
       - 🇲🇾 马来西亚节点
       - 🇨🇴 哥伦比亚节点
-      - ToToTel
       - 🚀 节点选择
       - 🚀 手动切换
       - ♻️ 自动选择
@@ -374,7 +366,6 @@ proxy-groups:
       - 🇳🇬 尼日利亚节点
       - 🇲🇾 马来西亚节点
       - 🇨🇴 哥伦比亚节点
-      - ToToTel
       - 🚀 节点选择
       - 🚀 手动切换
       - ♻️ 自动选择
@@ -549,7 +540,6 @@ proxy-groups:
       - 🇳🇬 尼日利亚节点
       - 🇲🇾 马来西亚节点
       - 🇨🇴 哥伦比亚节点
-      - ToToTel
       - 🚀 节点选择
       - 🚀 手动切换
       - ♻️ 自动选择
@@ -610,7 +600,6 @@ proxy-groups:
       - 🇳🇬 尼日利亚节点
       - 🇲🇾 马来西亚节点
       - 🇨🇴 哥伦比亚节点
-      - ToToTel
       - 🚀 节点选择
       - 🚀 手动切换
       - ♻️ 自动选择
@@ -776,13 +765,7 @@ proxy-groups:
     filter: (?i)尼日利亚
     type: url-test
     interval: 300
-    tolerance: 50  
-  - name: 🇺🇲 ToToTel
-    include-all: true
-    filter: (?i)reality
-    type: url-test
-    interval: 300
-    tolerance: 50
+    tolerance: 50 
 
 rule-providers:
   Black:
