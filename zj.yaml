@@ -739,6 +739,12 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+  - name: 🇷🇺 俄罗斯节点
+    include-all: true
+    filter: (?i)俄罗斯
+    type: url-test
+    interval: 300
+    tolerance: 50   
   - name: 🇮🇱 以色列节点
     include-all: true
     filter: (?i)以色列
