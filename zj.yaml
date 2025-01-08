@@ -1,5 +1,262 @@
 
 proxy-groups:
+  - name: White
+    include-all: true
+    type: select
+    proxies:
+      - DIRECT
+  - name: Black
+    include-all: true
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+  - name: TikTok
+    include-all: true
+    type: select
+    proxies:
+      - ToToTel
+  - name: Coin
+    include-all: true
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
+  - name: 🌈 Google
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT 
+  - name: 📹 油管视频
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT 
+  - name: AppleTV
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT 
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
+      - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT   
   - name: 🚀 节点选择
     type: select
     proxies:
@@ -44,56 +301,77 @@ proxy-groups:
   - name: 📲 电报消息
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
       - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
       - 🚀 手动切换
-      - DIRECT
+      - ♻️ 自动选择
+      - DIRECT 
   - name: 💬 OpenAi
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
-  - name: 📹 油管视频
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🇸🇬 狮城节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇯🇵 日本节点
-      - 🇺🇲 美国节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-      - DIRECT
+      - ToToTel
   - name: 🎥 奈飞视频
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🎥 奈飞节点
-      - 🇸🇬 狮城节点
       - 🇭🇰 香港节点
+      - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
       - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
       - 🚀 手动切换
-      - DIRECT
+      - ♻️ 自动选择
+      - DIRECT 
   - name: 📺 巴哈姆特
     type: select
     proxies:
@@ -101,114 +379,220 @@ proxy-groups:
       - 🚀 节点选择
       - 🚀 手动切换
       - DIRECT
-  - name: 📺 哔哩哔哩
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 🇨🇳 台湾节点
-      - 🇭🇰 香港节点
   - name: 🌍 国外媒体
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
       - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
       - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
       - 🚀 手动切换
-      - DIRECT
+      - ♻️ 自动选择
+      - DIRECT 
   - name: 🌏 国内媒体
     type: select
     proxies:
       - DIRECT
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
-      - 🚀 手动切换
   - name: 📢 谷歌FCM
     type: select
     proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇺🇲 美国节点
       - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
       - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
       - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
       - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT 
   - name: Ⓜ️ 微软Bing
     type: select
     proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇺🇲 美国节点
       - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
       - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
       - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
       - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT 
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇺🇲 美国节点
       - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
       - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
       - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
       - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT 
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
-      - 🚀 节点选择
-      - DIRECT
-      - 🇺🇲 美国节点
       - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
       - 🇯🇵 日本节点
-      - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: 🍎 苹果服务
-    type: select
-    proxies:
-      - DIRECT
-      - 🚀 节点选择
       - 🇺🇲 美国节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
-      - 🇸🇬 狮城节点
-      - 🇯🇵 日本节点
+      - 🇬🇧 英国节点
       - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
       - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT 
   - name: 🎮 游戏平台
     type: select
     proxies:
-      - DIRECT
-      - 🚀 节点选择
-      - 🇺🇲 美国节点
       - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
       - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
       - 🇰🇷 韩国节点
-      - 🚀 手动切换
-  - name: 🎶 网易音乐
-    type: select
-    include-all: true
-    filter: (?i)网易|音乐|NetEase|Music
-    proxies:
-      - DIRECT
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
       - 🚀 节点选择
+      - 🚀 手动切换
       - ♻️ 自动选择
+      - DIRECT 
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -216,6 +600,16 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
   - name: 🛑 广告拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🆎 AdBlock
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🛡️ 隐私防护
     type: select
     proxies:
       - REJECT
@@ -228,22 +622,62 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - DIRECT
       - 🇭🇰 香港节点
-      - 🇨🇳 台湾节点
       - 🇸🇬 狮城节点
+      - 🇨🇳 台湾节点
+      - 🇵🇭 菲律宾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇬🇧 英国节点
       - 🇰🇷 韩国节点
+      - 🇦🇺 澳大利亚点
+      - 🇳🇱 荷兰节点
+      - 🇩🇪 德国节点
+      - 🇮🇳 印度节点
+      - 🇧🇷 巴西节点
+      - 🇫🇷 法国节点
+      - 🇻🇳 越南节点
+      - 🇪🇬 埃及节点
+      - 🇹🇭 泰国节点
+      - 🇹🇷 土耳其节点
+      - 🇦🇷 阿根廷节点
+      - 🇨🇦 加拿大节点
+      - 🇷🇺 俄罗斯节点
+      - 🇮🇱 以色列节点
+      - 🇮🇹 意大利节点
+      - 🇵🇰 巴基斯坦节点
+      - 🇳🇬 尼日利亚节点
+      - 🇲🇾 马来西亚节点
+      - 🇨🇴 哥伦比亚节点
+      - ToToTel
+      - 🚀 节点选择
       - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT
   - name: 🇭🇰 香港节点
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
     type: url-test
     interval: 300
     tolerance: 50
+  - name: 🇸🇬 狮城节点
+    include-all: true
+    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇨🇳 台湾节点
+    include-all: true
+    filter: (?i)台|新北|彰化|TW|Taiwan
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇵🇭 菲律宾节点
+    include-all: true
+    filter: (?i)菲律宾
+    type: url-test
+    interval: 300
+    tolerance: 50    
   - name: 🇯🇵 日本节点
     include-all: true
     filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
@@ -256,15 +690,9 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: 🇨🇳 台湾节点
+  - name: 🇬🇧 英国节点
     include-all: true
-    filter: (?i)台|新北|彰化|TW|Taiwan
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: 🇸🇬 狮城节点
-    include-all: true
-    filter: (?i)新加坡|坡|狮城|SG|Singapore
+    filter: (?i)英国
     type: url-test
     interval: 300
     tolerance: 50
@@ -274,6 +702,134 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+  - name: 🇦🇺 澳大利亚点
+    include-all: true
+    filter: (?i)澳大利亚|澳洲
+    type: url-test
+    interval: 300
+    tolerance: 50 
+  - name: 🇳🇱 荷兰节点
+    include-all: true
+    filter: (?i)荷兰
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇩🇪 德国节点
+    include-all: true
+    filter: (?i)德国
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇮🇳 印度节点
+    include-all: true
+    filter: (?i)印度
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇧🇷 巴西节点
+    include-all: true
+    filter: (?i)巴西
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇫🇷 法国节点
+    include-all: true
+    filter: (?i)法国
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇻🇳 越南节点
+    include-all: true
+    filter: (?i)越南
+    type: url-test
+    interval: 300
+    tolerance: 50 
+  - name: 🇪🇬 埃及节点
+    include-all: true
+    filter: (?i)埃及
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇹🇭 泰国节点
+    include-all: true
+    filter: (?i)泰国
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇹🇷 土耳其节点
+    include-all: true
+    filter: (?i)土耳其
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇦🇷 阿根廷节点
+    include-all: true
+    filter: (?i)阿根廷
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇨🇦 加拿大节点
+    include-all: true
+    filter: (?i)加拿大
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇮🇱 以色列节点
+    include-all: true
+    filter: (?i)以色列
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇮🇹 意大利节点
+    include-all: true
+    filter: (?i)意大利
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇲🇾 马来西亚节点
+    include-all: true
+    filter: (?i)马来西亚
+    type: url-test
+    interval: 300
+    tolerance: 50 
+  - name: 🇵🇰 巴基斯坦节点
+    include-all: true
+    filter: (?i)巴基斯坦
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇨🇴 哥伦比亚节点
+    include-all: true
+    filter: (?i)哥伦比亚
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 🇳🇬 尼日利亚节点
+    include-all: true
+    filter: (?i)尼日利亚
+    type: url-test
+    interval: 300
+    tolerance: 50  
+  - name: 🇺🇲 ToToTel
+    include-all: true
+    filter: (?i)reality
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
   - name: 🎥 奈飞节点
     include-all: true
     filter: (?i)NF|奈飞|解锁|Netflix|NETFLIX|Media
