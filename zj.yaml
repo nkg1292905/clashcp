@@ -294,7 +294,7 @@ proxy-groups:
   - name: 💬 OpenAi
     type: select
     proxies:
-      - ToToTel
+      - 🚀 手动切换
   - name: 🎥 奈飞视频
     type: select
     proxies:
