@@ -1,7 +1,7 @@
 # url 里填写自己的订阅,名称不能重复
 proxy-providers:
   ProviderAirPort:
-    url: "http://10.10.10.254:3001/share/file/Clash-LocalSub?token=KFYjdul1LBb53Z_jlV40i"
+    url: "http://10.10.10.254:3001/share/col/%E7%BB%84%E5%90%88?token=1fwdfG---CDANc1kFCP77"
     type: http
     interval: 86400
     health-check: {enable: true,url: "http://www.apple.com/library/test/success.html",interval: 300}
@@ -976,13 +976,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  direct:
-    url: https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/direct.list
-    path: ./ruleset/direct.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
   GoogleCN:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
     path: ./ruleset/GoogleCN.list
@@ -1042,13 +1035,6 @@ rule-providers:
   BanEasyListChina:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
     path: ./ruleset/BanEasyListChina.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  ad:
-    url: https://raw.githubusercontent.com/chinnsenn/ClashCustomRule/master/ad.list
-    path: ./ruleset/ad.list
     behavior: classical
     interval: 86400
     format: text
@@ -1119,7 +1105,6 @@ rules:
   - "RULE-SET,Nintendo,🎮 游戏平台"
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
   - "RULE-SET,UnBan,🎯 全球直连"
-  - "RULE-SET,direct,🎯 全球直连"
   - "RULE-SET,GoogleCN,🎯 全球直连"
   - "RULE-SET,SteamCN,🎯 全球直连"
   - "RULE-SET,ChinaIPs,🎯 全球直连"
@@ -1129,7 +1114,6 @@ rules:
   - "RULE-SET,BanAD,🛑 广告拦截"
   - "RULE-SET,BanEasyList,🆎 AdBlock"
   - "RULE-SET,BanEasyListChina,🆎 AdBlock"
-  - "RULE-SET,ad,🆎 AdBlock"
   - "RULE-SET,BanEasyPrivacy,🛡️ 隐私防护"
   - "RULE-SET,BanProgramAD,🍃 应用净化"
   - "RULE-SET,Bahamut,📺 巴哈姆特"
