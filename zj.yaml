@@ -1,14 +1,51 @@
+# url 里填写自己的订阅,名称不能重复
+proxy-providers:
+  ProviderAirPort:
+    url: "http://10.10.10.254:3001/u2AYEcaFLzJyHXXZXUpD/download/collection/%E7%BB%84%E5%90%88"
+    type: http
+    interval: 86400
+    health-check: {enable: true,url: "http://www.apple.com/library/test/success.html",interval: 300}
+    # override:
+    #   additional-prefix: "[ProviderAirPort]"
+
+# DNS 配置可自行修改
+port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+dns:
+  enable: true
+  listen: :53
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver: 
+    - 61.132.168.68
+    - 223.5.5.5
+  nameserver:
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+  fallback:
+    - 8.8.8.8
+    - https://1.0.0.1/dns-query
+    - tls://dns.google
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+      - 240.0.0.0/4
 
 proxy-groups:
   - name: White
-    include-all: true
     type: select
     proxies:
       - DIRECT
   - name: Black
-    include-all: true
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -41,14 +78,13 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
   - name: TikTok
-    include-all: true
     type: select
     proxies:
-      - 🚀 手动切换
+      - ToToTel
   - name: Coin
-    include-all: true
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -83,6 +119,7 @@ proxy-groups:
   - name: 📹 油管视频
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -117,6 +154,7 @@ proxy-groups:
   - name: 🌈 Google
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -151,6 +189,7 @@ proxy-groups:
   - name: AppleTV
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -185,6 +224,7 @@ proxy-groups:
   - name: 🍎 苹果服务
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -219,8 +259,7 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ♻️ 自动选择
-      - 🚀 手动切换
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -248,10 +287,12 @@ proxy-groups:
       - 🇳🇬 尼日利亚节点
       - 🇲🇾 马来西亚节点
       - 🇨🇴 哥伦比亚节点
-      - DIRECT
+      - 🚀 手动切换
+      - ♻️ 自动选择
+      - DIRECT 
   - name: 🚀 手动切换
-    include-all: true
     type: select
+    include-all: true
   - name: ♻️ 自动选择
     type: url-test
     include-all: true
@@ -260,6 +301,7 @@ proxy-groups:
   - name: 📲 电报消息
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -294,10 +336,11 @@ proxy-groups:
   - name: 💬 OpenAi
     type: select
     proxies:
-      - 🚀 手动切换
+      - ToToTel
   - name: 🎥 奈飞视频
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -339,6 +382,7 @@ proxy-groups:
   - name: 🌍 国外媒体
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -377,6 +421,7 @@ proxy-groups:
   - name: 📢 谷歌FCM
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -411,6 +456,7 @@ proxy-groups:
   - name: Ⓜ️ 微软Bing
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -445,6 +491,7 @@ proxy-groups:
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -479,6 +526,7 @@ proxy-groups:
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -513,6 +561,7 @@ proxy-groups:
   - name: 🎮 游戏平台
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -573,6 +622,7 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
+      - ToToTel
       - 🇭🇰 香港节点
       - 🇸🇬 狮城节点
       - 🇨🇳 台湾节点
@@ -604,6 +654,10 @@ proxy-groups:
       - 🚀 手动切换
       - ♻️ 自动选择
       - DIRECT
+  - name: ToToTel
+    include-all: true
+    filter: (?i)Reality|WS
+    type: select
   - name: 🇭🇰 香港节点
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
