@@ -1,7 +1,7 @@
 # url 里填写自己的订阅,名称不能重复
 proxy-providers:
   ProviderAirPort:
-    url: "http://10.10.10.254:3001/share/file/Clash-ALL?token=HctHkWtqp6ZX5chbarZsx"
+    url: "http://10.10.10.254:3001/share/file/Clash-LocalSub?token=KFYjdul1LBb53Z_jlV40i"
     type: http
     interval: 86400
     health-check: {enable: true,url: "http://www.apple.com/library/test/success.html",interval: 300}
